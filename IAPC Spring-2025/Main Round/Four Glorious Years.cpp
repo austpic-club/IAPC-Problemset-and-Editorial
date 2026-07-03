@@ -1,4 +1,4 @@
-#includebitsstdc++.h
+#include<bits/stdc++.h>
 using namespace std;
 #define INF      1e18+9
 #define PI       acos(-1.0)
@@ -6,22 +6,22 @@ using namespace std;
 #define ull      unsigned long long int
 #define all(x)   (x).begin(), (x).end()
 #define pb       push_back
-#define tc         
-        int tcase,tno; 
-        cin  tcase;  
-        for(tno=1;tno=tcase;tno++)
-#define pcn         coutCase tnoendl;
-#define ff(i,n)     for(ll i=0;in;i++)
+#define tc         \
+        int tcase,tno; \
+        cin >> tcase;  \
+        for(tno=1;tno<=tcase;tno++)
+#define pcn         cout<<"Case "<<tno<<":"<<endl;
+#define ff(i,n)     for(ll i=0;i<n;i++)
 
 
 int main()
 {
-    ios_basesync_with_stdio(0); cin.tie(0); cout.tie(0);
+    ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 
-    coutAUST Programming and Informatics Clubendl;
-    coutAUST Programming and Informatics Clubendl;
-    coutAUST Programming and Informatics Clubendl;
-    coutAUST Programming and Informatics Clubendl;
+    cout << "AUST Programming and Informatics Club" << endl;
+    cout << "AUST Programming and Informatics Club" << endl;
+    cout << "AUST Programming and Informatics Club" << endl;
+    cout << "AUST Programming and Informatics Club" << endl;
 
     return 0;
 }
